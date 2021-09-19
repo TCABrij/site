@@ -1,0 +1,168 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    /* margin: 0%; */
+}
+body{
+    margin: 0%;
+    background-color: rgb(105, 102, 102);
+    height: 100vh;
+}
+header{
+    padding: 3px;
+    background-color: rgb(44, 43, 43);
+    position: sticky;
+    top: 0px;
+    overflow: hidden;
+    height: 91px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+header a{
+    text-decoration: none;
+    display: inline-block;
+}
+header .header{
+   margin-left: 10px;
+}
+header .header:hover{
+    cursor: pointer;
+} 
+header .header img{
+    width: 5em;
+    border-radius: 50%;
+}
+header .header h2{
+    display: inline;
+    font: 3em arial;
+    color: rgb(235, 179, 76);
+    margin-left: 5px;
+}
+header .header h2:hover{
+    color: orange;
+}
+   /* Navigation bar  */
+.nav-bar{
+    float: right;
+    margin-right: 10px;
+}
+.nav-bar ul{
+    list-style: none;
+}
+.nav-bar ul li{
+    display: inline;
+    font: 2em arial;
+}
+.nav-bar ul li a{
+    color: rgb(138, 134, 134);
+    margin: 10px;
+}
+.nav-bar ul li a:hover{
+    color: white;
+    border-bottom: 2px dotted gray;
+}
+   
+    /* Page body */
+ main{
+     height: 100vh;
+ }   
+
+    /* Login - form  */
+  .login-form-container{
+      height: 356px;
+      background-color: rgb(41, 40, 40);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 150px 0px;
+      /* border: 1px solid dodgerblue; */
+  }
+  .login-form-container form{
+      background-color: rgb(20, 20, 20);
+      height: auto;
+      padding: 2rem;
+      margin: 100px 10px;
+      box-shadow:  10px 10px 10px 1px rgba(0, 0, 0, 1);
+      /* animation: alert 3s infinite; */
+  }
+  @keyframes alert{
+      0%{ transform: translateY(0px); }
+      25%{ transform: translateY(0px); }
+      50%{ transform: translateY(3px); }
+      100%{ transform: translateY(0%); }
+  }
+  .login-form-container form label{
+      color: rgba(220, 220, 220, 0.7);
+      text-align: center;
+      display: block;
+      font-size: 1.5rem;
+  }
+  .login-form-container form .form-inputs{
+      margin-top: 20px;
+  }
+  .login-form-container form .form-inputs input{
+      display: block;
+      width: 100%;
+      height: 40px;
+      padding-left: 5px;
+      margin-bottom: 3px;
+      text-align: center;
+      background-color: black;
+      border: none;
+      color: rgba(220, 220, 220, 0.7);
+      font: 16px arial;
+  }
+  .login-form-container form .form-inputs input:focus{
+      outline: none;
+  }
+  .login-form-container form .button{
+      /* border: 1px solid greenyellow; */
+      margin-top: 20px;
+  }
+  .login-form-container form .button .submit-button{
+      display: block;
+      margin: auto;
+      width: 80%;
+      height: 40px;
+      color: rgba(220, 220, 220, 0.7);
+      background-color: rgb(10, 10, 10);
+      border: none;
+      font-size: 16px;
+  }
+  .login-form-container form .button .submit-button:hover{
+      background-color: black;
+      cursor: pointer;
+  }
+
+
+    /* footer information  */
+footer{
+    background-color: rgb(44, 43, 43);
+    text-align: center;
+}
+footer p{
+    color: rgba(220, 220, 220, 0.7);
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px;
+}
+
+   /* Responsivness controlling LOL  */
+
+   @media only screen and (max-width: 316px) {
+    header{
+        height: 59px;
+    }
+    header .header h2{
+        font-size: 25px;
+    }
+    header .header img{
+        width: 3em;
+
+    }
+    .login-form-container form label{
+        font-size: 1.2em;
+    }
+    footer p{
+        font-size: 0.6em;
+    }
+   }

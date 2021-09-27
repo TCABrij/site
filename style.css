@@ -129,9 +129,6 @@ header .header h2:hover{
      padding-top: 20px;
      font-size: 2em;
  }
- .sidebar-content .navbar{
-     
- }
  .sidebar-content .navbar ul{
      list-style: none;
      padding-inline-start: 4px;
@@ -150,13 +147,7 @@ header .header h2:hover{
  .sidebar-content .navbar ul li a:hover{
      background-color: rgb(189, 189, 189);
  }
- .sidebar-content .footer-text{
-     text-align: center;
-     display: flex;
-     height: 22vh;
-     justify-content: center;
-     align-items: flex-end;
- }
+
 
    
     /* Page body */

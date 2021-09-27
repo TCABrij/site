@@ -153,7 +153,7 @@ header .header h2:hover{
  .sidebar-content .footer-text{
      text-align: center;
      display: flex;
-     height: 42vh;
+     height: 22vh;
      justify-content: center;
      align-items: flex-end;
  }

@@ -224,9 +224,10 @@ footer p{
     }
     .sidebutton{
         visibility: visible;
+        top: 1%;
     }
     .sidebar-button{
-        font-size: 20px;
+        font-size: 25px;
     }
     .sidebar{
         width: 70%;

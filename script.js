@@ -5,18 +5,20 @@ document.addEventListener('DOMContentLoaded', ()=>{
         let sidebar = document.querySelector('.sidebar-background');
         sidebar.style.width = "0%";
     });
-    //sidebar button
+             //sidebar button
     let sidebarButton = document.querySelector(".sidebar-button");
+    
+    //  setting/Removing Animation to sidebar button 
     sidebarButton.addEventListener("mouseover", ()=>{
         sidebarButton.style.animationName = "uptodown";
     });
     sidebarButton.addEventListener("mouseout", ()=>{
         sidebarButton.style.animationName = "";
     });
+
+     // Sidebar click functionality
     sidebarButton.addEventListener("click", ()=>{
         let sidebar = document.querySelector('.sidebar-background');
-        sidebar.style.backdropFilter = "blur(0px)";
-        sidebar.style.backgrounColor = "transparent";
         sidebar.style.width = "100%";
     })
 });

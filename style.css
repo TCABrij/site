@@ -87,7 +87,13 @@ header .header h2:hover{
     background-color: rgba(0, 0, 0, 0.13);
     backdrop-filter: blur(10px);
     transition: width .5s;
- }   
+ } 
+ .sidebutton{
+     position: fixed;
+     right: 2%;
+     top: 2%;
+     visibility: hidden;
+ }  
  .sidebar{
      height: 100%;
      width: 30%;
@@ -215,5 +221,14 @@ footer p{
     }
     footer p{
         font-size: 0.6em;
+    }
+    .sidebutton{
+        visibility: visible;
+    }
+    .sidebar-button{
+        font-size: 20px;
+    }
+    .sidebar{
+        width: 70%;
     }
    }

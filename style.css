@@ -150,6 +150,13 @@ header .header h2:hover{
  .sidebar-content .navbar ul li a:hover{
      background-color: rgb(189, 189, 189);
  }
+ .sidebar-content .footer-text{
+     text-align: center;
+     display: flex;
+     height: 42vh;
+     justify-content: center;
+     align-items: flex-end;
+ }
 
    
     /* Page body */

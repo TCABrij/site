@@ -232,3 +232,15 @@ footer p{
         width: 70%;
     }
    }
+
+   @media only screen and (max-width: 400px) {
+    .sidebutton{
+        visibility: visible;
+    }
+    .sidebar-button{
+        font-size: 20px;
+    }
+    .sidebar{
+        width: 70%;
+    }  
+   }

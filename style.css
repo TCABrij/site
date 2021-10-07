@@ -117,10 +117,7 @@ header .header h2:hover{
      cursor: pointer;
      text-shadow: 0px 0px 3px red;
  }
-    /* Sidebar contents  */
- .sidebar-content{
-     display: none;
- }  
+    /* Sidebar contents  */ 
  .sidebar-content *{
      margin: 0%;
  }  

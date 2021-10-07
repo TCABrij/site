@@ -4,8 +4,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
     closeButtonSidebar.addEventListener("click", ()=>{
         let sidebar = document.querySelector('.sidebar-background');
         let sidebarContent = document.querySelector(".sidebar-content");
-        sidebar.style.width = "0%";
-        sidebarContent.style.display = "none";
+        sidebar.style.left = "-100%";
         
     });
              //sidebar button
@@ -23,7 +22,6 @@ document.addEventListener('DOMContentLoaded', ()=>{
     sidebarButton.addEventListener("click", ()=>{
         let sidebar = document.querySelector('.sidebar-background');
         let sidebarContent = document.querySelector(".sidebar-content");
-        sidebar.style.width = "100%";
-        sidebarContent.style.display = "block";
+        sidebar.style.left = "0%";
     })
 });

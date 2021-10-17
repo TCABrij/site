@@ -13,6 +13,12 @@
     <main>
         <div class="container">
             <h1 class="title"> Contact us </h1>
+        <div class="row">
+            <img src="images/contact.jpg" alt="Contact us image" class="row-img" draggable="false">
+            <div class="img-description">
+               Feel free to contact us anytime with the contact us form below.
+            </div>
+        </div>
         </div>
     </main>
     <footer>
@@ -22,6 +28,7 @@
 <style>
     body {
         margin: 0%;
+        text-align: center;
     }
 
     * {
@@ -36,7 +43,35 @@
     .container{
         border: 1px solid yellowgreen;
         padding: 5px;
+        background-color: white;
+        height: 100%;
+        width: 70%;
     }
+    .title{
+        font-size: 3em;
+    }
+    .row{
+       padding: 10px 50px;
+       text-aling: left;
+       margin:  0;
+    }
+    .row-img{
+       border-radius: 20px;
+    }
+    .img-description{
+       margin-top: 20px;
+   }  
+ 
+  @media screen and (max-width: 600px){
+      .title{
+          font-size: 2.5em; 
+       }    
+    }
+   @media screen and (max-width: 300px){
+    .title{
+          font-size: 1.8em; 
+      }  
+   }
 </style>
 
 </html>
